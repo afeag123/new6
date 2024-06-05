@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+
+html {
+width: 100%;
+height: 100%;
+}
+body {
+	display: block;
+    margin: 0px;
+    padding: 3rem 20rem;
+    height: calc(2.25rem + 2px);
+    width: 50%;
+    height: 100%;
+    font-family: "GTWalsheimProRegular", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    background: #DEB887;
+
+
+}
+body {
+    display: block;
+    margin: 8px;
+}
+
+h1 {
+font-family: "GTWalsheimProBold", sans-serif;
+font-size: 36px;
+line-height: 1.33;
+margin: 0 0 23px 0;
+}
+
+div.category_description {
+margin: 64px 0;
+} .page_detail {
+margin-bottom: 72px;
+}
+
+li{
+	text-align: justify;
+
+}
+
+p{
+	text-align: justify;
+
+}
+
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#8B4513;
+}
+
+li {
+    float: left;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 69%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
